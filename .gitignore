@@ -3,3 +3,4 @@ dist
 .cache
 .parcel-cache
 .vscode/settings.json
+package-lock.json
