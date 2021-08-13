@@ -35,6 +35,8 @@ cd ciudse-website
 
 2. Instalar dependencias
 
+Asegurese de correr este comando desde el directorio del proyecto
+
 ```
 npm install
 ```
