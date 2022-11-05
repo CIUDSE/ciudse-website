@@ -2,8 +2,15 @@
   "name": "ciudse-website",
   "version": "2.0.0",
   "description": "CIUDSE rocket team official website",
-  "main": "index.js",
+  "source": "src/index.html",
   "repository": "https://github.com/CIUDSE/ciudse-website.git",
   "author": "Robert Serrano Kobylyansky <robertkobylyansky@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
 }
