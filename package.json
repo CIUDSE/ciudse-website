@@ -1,0 +1,9 @@
+{
+  "name": "ciudse-website",
+  "version": "2.0.0",
+  "description": "CIUDSE rocket team official website",
+  "main": "index.js",
+  "repository": "https://github.com/CIUDSE/ciudse-website.git",
+  "author": "Robert Serrano Kobylyansky <robertkobylyansky@gmail.com>",
+  "license": "MIT"
+}

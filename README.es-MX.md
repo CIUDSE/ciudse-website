@@ -1,5 +1,7 @@
 # ciudse-website
 
+Sitio web oficial del equipo de coheteria CIUDSE
+
 ## Guia de desarrollo
 
 ### 0. Requisitos previos
