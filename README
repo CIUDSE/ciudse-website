@@ -19,17 +19,17 @@ cd ciudse-website
 ### 2. Install dependencies
 
 ```
-npm install
+yarn install
 ```
 
 ### 3. Run a local development server
 
 ```
-npm run dev
+yarn start
 ```
 
 If you want to build a production version of the website
 
 ```
-npm run build
+yarn build
 ```
