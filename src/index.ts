@@ -51,13 +51,12 @@ class HeaderLogo {
     }
     onClick() {
         this.click_count++;
-        if (this.click_count >= 1) {
+        if (this.click_count >= 10) {
             this.launch();
             this.click_count = 0;
         }
     }
     launch() {
-        console.log("launch");
         for(let i = 0; i < 10; i++) {
             create_mini_rocket(Math.random()*screen.width, Math.random()*screen.height, Math.random()*2*Math.PI, (Math.random()-0.5));
         }
