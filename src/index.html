@@ -9,19 +9,32 @@
 
 <body>
   <script type="module" src="./index.ts"></script>
+  
+  <nav class="hidden lg:flex sticky top-0 bg-green-800  justify-between">
+    <a href="#"><img class="h-16 p-2 hover:p-1" src="assets/ciudse_logo.png?as=webp&height=128" alt="CIUDSE"></a>
+    <ul class="flex items-center">
+      <li class="text-lg font-bold px-6 text-gray-300 hover:font-extrabold"><a href="#section-sponsors">Patrocinadores</a></li>
+      <li class="text-lg font-bold px-6 text-gray-300 hover:font-extrabold"><a href="#section-whoarewe">Quienes Somos?</a></li>
+      <li class="text-lg font-bold px-6 text-gray-300 hover:font-extrabold"><a href="#section-projects">Nuestros Proyectos</a></li>
+      <li class="text-lg font-bold px-6 text-gray-300 hover:font-extrabold"><a href="#section-joinus">Unete!</a></li>
+      <li class="text-lg font-bold px-6 text-gray-300 hover:font-extrabold"><a href="#section-contact">Contactar</a></li>
+    </ul>
+  </nav>
+
   <header class="flex justify-center text-center bg-gray-400 bg-blend-multiply bg-center bg-cover bg-[url('assets/hero_cropped.jpg?as=webp&height=720')]">
     <div>
-      <img id="header_logo" class="h-32 md:h-64 mx-auto" src="assets/ciudse_logo.png?as=webp&height=480">
+      <img id="header_logo" class="h-32 md:h-64 mx-auto py-10" src="assets/ciudse_logo.png?as=webp&height=480">
       <h1 class="text-gray-200 text-5xl md:text-7xl font-bold py-2 ">CIUDSE</h1>
       <h2 class="text-xl md:text-4xl font-semibold text-gray-300">Esta llevando a Mexico al espacio!</h2>
       <button>
-        <a href="#whoarewe">
+        <a href="#section-whoarewe">
           <img src="assets/rocket_exported.png?as=webp&height=100" class="pt-12 h-28 md:h-32 animate-bounce">
         </a>
       </button>
     </div>
   </header>
-  <section class="flex justify-center text-center bg-blue-100">
+
+  <section id="section-sponsors" class="flex justify-center text-center bg-blue-100">
     <div class="py-16">
       <h1 class="text-3xl">Ayudanos a llegar a nuevas alturas!</h1>
       <p class="text-xl py-6">Con tu apoyo podremos continuar realizando nuestros proyectos</p>
@@ -30,7 +43,7 @@
       <button class="w-52 h-20 bg-yellow-600 rounded text-white font-semibold text-xl hover:bg-yellow-500">Se Patrocinador</button>
     </div>
   </section>
-  <h2 class="text-4xl px-4 pt-8 pb-2" id="whoarewe">Quienes Somos?</h2>
+  <h2 id="section-whoarewe" class="text-4xl px-4 pt-8 pb-2">Quienes Somos?</h2>
   <p class="px-4">
     El Club de Investigación y Desarrollo de Sistemas Espaciales (CIUDSE) es un club de investigación y desarrollo de la Universidad Autonoma de Baja California (UABC) que se dedica a la investigación y desarrollo de sistemas espaciales.
   </p>
