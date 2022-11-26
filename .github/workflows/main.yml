@@ -25,11 +25,11 @@ jobs:
     - name: Install Dependencies
       uses: borales/actions-yarn@v3.0.0
       with:
-        cmd: yarn install --frozen-lockfile
+        cmd: install --frozen-lockfile
     - name: Yarn Build
       uses: borales/actions-yarn@v3.0.0
       with:
-        cmd: yarn build
+        cmd: build
     - name: GitHub Pages 
       uses: crazy-max/ghaction-github-pages@v2.5.0
       with:
