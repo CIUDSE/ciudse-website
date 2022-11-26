@@ -10,12 +10,12 @@
 <body>
   <script type="module" src="./index.ts"></script>
   
-  <nav class="hidden lg:flex sticky top-0 bg-green-800  justify-between">
+  <nav class="hidden lg:flex sticky top-0 bg-green-800  justify-between z-50">
     <a href="#"><img class="h-16 p-2 hover:p-1" src="assets/ciudse_logo.png?as=webp&height=128" alt="CIUDSE"></a>
     <ul class="flex items-center">
-      <li class="text-lg font-bold px-6 text-gray-300 hover:font-extrabold"><a href="#section-sponsors">Patrocinadores</a></li>
+      <!-- <li class="text-lg font-bold px-6 text-gray-300 hover:font-extrabold"><a href="#section-sponsors">Patrocinadores</a></li> -->
       <li class="text-lg font-bold px-6 text-gray-300 hover:font-extrabold"><a href="#section-whoarewe">Quienes Somos?</a></li>
-      <li class="text-lg font-bold px-6 text-gray-300 hover:font-extrabold"><a href="#section-projects">Nuestros Proyectos</a></li>
+      <!-- <li class="text-lg font-bold px-6 text-gray-300 hover:font-extrabold"><a href="#section-projects">Nuestros Proyectos</a></li> -->
       <li class="text-lg font-bold px-6 text-gray-300 hover:font-extrabold"><a href="#section-joinus">Unete!</a></li>
       <li class="text-lg font-bold px-6 text-gray-300 hover:font-extrabold"><a href="#section-contact">Contactar</a></li>
     </ul>
@@ -34,25 +34,49 @@
     </div>
   </header>
 
-  <section id="section-sponsors" class="flex justify-center text-center bg-blue-100">
+  <!-- section id="section-sponsors" class="flex justify-center text-center bg-blue-100">
     <div class="py-16">
       <h1 class="text-3xl">Ayudanos a llegar a nuevas alturas!</h1>
       <p class="text-xl py-6">Con tu apoyo podremos continuar realizando nuestros proyectos</p>
-      <button class="w-52 h-20 bg-green-700 rounded text-white font-semibold text-xl hover:bg-green-600">Hacer una donacion</button>
+      <button class="transition w-52 h-20 bg-green-700 rounded text-white font-semibold text-xl drop-shadow-xl hover:drop-shadow-md hover:bg-green-600">Hacer una donacion</button>
       <p class="text-xl py-6">Estas interesado en dejar tu huella en la carrera espacial?</p>
-      <button class="w-52 h-20 bg-yellow-600 rounded text-white font-semibold text-xl hover:bg-yellow-500">Se Patrocinador</button>
+      <button class="transition w-52 h-20 bg-yellow-600 rounded text-white font-semibold text-xl drop-shadow-xl hover:drop-shadow-md hover:bg-yellow-500">Se Patrocinador</button>
+    </div>
+  </section -->
+
+  <section id="section-whoarewe" class="flex flex-col lg:flex-row justify-center max-w-5xl mx-auto items-center">
+    <div class="flex-col">
+      <h2 class="text-4xl px-4 pt-8 pb-2">Quienes Somos?</h2>
+      <p class="px-4 text-justify">
+        El Club de Investigación y Desarrollo de Sistemas Espaciales (CIUDSE) es un club de investigación y desarrollo de la Universidad    Autonoma de Baja California (UABC) que se dedica a la investigación y desarrollo de sistemas espaciales. Somos un grupo   multidisciplinario dirigido por estudiantes para estudiantes, enfocado en el desarrollo de proyectos diversos en el ámbito   aeroespacial.   Nos esforzamos en promover el interés por la ciencia y la tecnología dentro y fuera de nuestra institución por el   valor que aporta a las  vidas de las personas y al progreso de México. 
+      </p>
+    </div>
+    <div class="p-4">
+      <img src="assets/photo1.png?as=webp&height=720" class="max-w-md rounded-xl drop-shadow-xl transition ease-in-out hover:scale-105 hover:drop-shadow-2xl">
     </div>
   </section>
-  <h2 id="section-whoarewe" class="text-4xl px-4 pt-8 pb-2">Quienes Somos?</h2>
-  <p class="px-4">
-    El Club de Investigación y Desarrollo de Sistemas Espaciales (CIUDSE) es un club de investigación y desarrollo de la Universidad Autonoma de Baja California (UABC) que se dedica a la investigación y desarrollo de sistemas espaciales.
-  </p>
-  <h2 class="text-4xl px-4 pt-8 pb-2">Nuestros Proyectos</h2>
-  Occaecat ipsum ad aute culpa aute. Fugiat id aliquip laborum ea Lorem. Non consequat ea consectetur non eu laborum aliqua qui sit magna culpa laboris ut.
 
-  Cillum exercitation tempor id aliqua magna elit Lorem dolore id fugiat ut enim quis. Proident laborum ullamco minim labore deserunt fugiat sint cillum duis. Enim qui id dolor sit dolor reprehenderit occaecat sint mollit.
+  <section id="section-joinus" class="bg-yellow-100 pt-10 pb-10">
+    <h2 class="text-5xl pb-5 text-center font-bold">Unete a nuestro equipo!</h2>
+    <h3 class="text-xl pb-1 font-bold text-center">Convocatoria Diciembre 2023</h3>
+    <div class="text-md text-red-600 text-center">Fecha Limite: 10 de Diciembre</div>
+    <div class="text-md text-green-700 text-center pb-10">Respuestas: 15 de Diciembre</div>
+    <div class="text-justify max-w-4xl mx-auto">
+      Actualmente estan disponibles posiciones en las siguientes areas. Puedes aplicar a una o a todas las que quieras.
+      <ul class="p-2 flex justify-center text-white font-semibold">
+        <li><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfbsKaaJQq_CZ0B6of_1brPaF6GOBkYzti0msOgg88eekQ4eA/viewform?usp=sf_link"><button class="p-2 bg-green-700 rounded-md drop-shadow-sm transition ease-in-out hover:scale-105 hover:drop-shadow-md">Software</button></a></li>
+      </ul>
+    </div>
+  </section>
 
-  Occaecat minim dolore enim incididunt nulla cupidatat. Anim mollit ex excepteur cupidatat veniam ut qui ipsum dolore reprehenderit. Adipisicing ipsum cillum adipisicing ad voluptate amet magna labore ipsum nostrud nostrud sit quis incididunt. Magna mollit commodo sint incididunt consequat sunt fugiat ea est et consectetur non esse. Elit duis fugiat cupidatat culpa reprehenderit adipisicing. Ut occaecat consectetur nostrud nostrud laborum.
+  <section id="section-contact" class="py-16 max-w-4xl mx-auto">
+    <h2 class="text-xl font-bold">Contactanos</h2>
+    <a href="mailto:ciudse.fcitec@uabc.edu.mx" target="_blank">
+      <button class="bg-green-800 text-white p-2 rounded-md drop-shadow-md transition hover:drop-shadow-lg hover:scale-105">
+        Envianos un correo electronico
+      </button>
+    </a>
+  </section>
 </body>
 
 </html>
