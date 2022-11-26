@@ -1,27 +1,19 @@
 {
   "name": "ciudse-website",
-  "version": "1.0.0",
-  "description": "CIUDSE Website",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/skrobchik/ciudse-website.git"
-  },
+  "version": "2.0.0",
+  "description": "CIUDSE rocket team official website",
+  "source": "src/index.html",
+  "repository": "https://github.com/CIUDSE/ciudse-website.git",
+  "author": "Robert Serrano Kobylyansky <robertkobylyansky@gmail.com>",
+  "license": "MIT",
   "scripts": {
-    "dev": "parcel serve src/index.html",
-    "build": "parcel build src/index.html",
-    "test": ""
+    "start": "parcel",
+    "build": "parcel build"
   },
-  "keywords": [],
-  "author": "Robert Serrano Kobylyansky",
   "devDependencies": {
-    "@parcel/transformer-image": "^2.0.0-rc.0",
-    "autoprefixer": "^10.3.1",
-    "parcel": "next",
-    "postcss": "^8.3.6",
-    "posthtml": "^0.16.5",
-    "posthtml-include": "^1.7.1",
-    "posthtml-md": "^1.1.0",
-    "tailwindcss": "^2.2.7"
-  },
-  "dependencies": {}
+    "parcel": "^2.7.0",
+    "postcss": "^8.4.18",
+    "sharp": "^0.29.1",
+    "tailwindcss": "^3.2.2"
+  }
 }

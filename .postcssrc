@@ -1,13 +1,5 @@
 {
-    "plugins": {
-        "tailwindcss": {
-            purge: {
-                enabled: true,
-                content: [
-                    "./src/**/*.html"
-                ],
-            },
-        },
-        "autoprefixer": {},
-    }
+  "plugins": {
+    "tailwindcss": {}
+  }
 }
