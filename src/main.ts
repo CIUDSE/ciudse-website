@@ -51,7 +51,7 @@ class HeaderLogo {
     }
     onClick() {
         this.click_count++;
-        if (this.click_count >= 10) {
+        if (this.click_count >= 1) {
             this.launch();
             this.click_count = 0;
         }
